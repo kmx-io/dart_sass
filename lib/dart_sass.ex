@@ -279,6 +279,7 @@ defmodule DartSass do
     case :os.type() do
       {:unix, :darwin} -> :macos
       {:unix, :linux} -> :linux
+      {:unix, :openbsd} -> :openbsd
       {:unix, osname} -> raise "dart_sass is not available for osname: #{inspect(osname)}"
       {:win32, _} -> :windows
     end
