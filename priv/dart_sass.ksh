@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/ksh
 
 # This script was taken from the Elixir Port guide. It is used to ensure
 # graceful termination of the `sass` process when it detects that stdin
